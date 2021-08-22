@@ -95,7 +95,7 @@
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+  <!--<Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
@@ -105,5 +105,5 @@
     <Error Condition="!Exists('..\ContactInformation\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\ContactInformation\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
   </Target>
   <Import Project="..\ContactInformation\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\ContactInformation\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.targets')" />
-  <Import Project="..\ContactInformation\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\ContactInformation\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\ContactInformation\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\ContactInformation\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />-->
 </Project>
